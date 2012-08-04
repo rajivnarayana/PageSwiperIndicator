@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92D9E53C15CAFC64007280A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D9E53B15CAFC64007280A9 /* UIKit.framework */; };
+		92D9E53E15CAFC64007280A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D9E53D15CAFC64007280A9 /* Foundation.framework */; };
+		92D9E54015CAFC64007280A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D9E53F15CAFC64007280A9 /* CoreGraphics.framework */; };
+		92D9E54615CAFC64007280A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92D9E54415CAFC64007280A9 /* InfoPlist.strings */; };
+		92D9E54815CAFC64007280A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D9E54715CAFC64007280A9 /* main.m */; };
+		92D9E54C15CAFC64007280A9 /* WAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D9E54B15CAFC64007280A9 /* WAAppDelegate.m */; };
+		92D9E55415CB0085007280A9 /* UIViewPager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D9E55315CB0085007280A9 /* UIViewPager.m */; };
+		92DEBACA15CDABDE007C6E5A /* WAScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DEBAC915CDABDE007C6E5A /* WAScrollViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		92D9E53715CAFC64007280A9 /* PageSwiperIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageSwiperIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92D9E53B15CAFC64007280A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		92D9E53D15CAFC64007280A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		92D9E53F15CAFC64007280A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		92D9E54315CAFC64007280A9 /* PageSwiperIndicator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PageSwiperIndicator-Info.plist"; sourceTree = "<group>"; };
+		92D9E54515CAFC64007280A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92D9E54715CAFC64007280A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92D9E54915CAFC64007280A9 /* PageSwiperIndicator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PageSwiperIndicator-Prefix.pch"; sourceTree = "<group>"; };
+		92D9E54A15CAFC64007280A9 /* WAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAAppDelegate.h; sourceTree = "<group>"; };
+		92D9E54B15CAFC64007280A9 /* WAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAAppDelegate.m; sourceTree = "<group>"; };
+		92D9E55215CB0085007280A9 /* UIViewPager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewPager.h; sourceTree = "<group>"; };
+		92D9E55315CB0085007280A9 /* UIViewPager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewPager.m; sourceTree = "<group>"; };
+		92DEBAC815CDABDE007C6E5A /* WAScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAScrollViewController.h; sourceTree = "<group>"; };
+		92DEBAC915CDABDE007C6E5A /* WAScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAScrollViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92D9E53415CAFC64007280A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D9E53C15CAFC64007280A9 /* UIKit.framework in Frameworks */,
+				92D9E53E15CAFC64007280A9 /* Foundation.framework in Frameworks */,
+				92D9E54015CAFC64007280A9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92D9E52C15CAFC64007280A9 = {
+			isa = PBXGroup;
+			children = (
+				92D9E54115CAFC64007280A9 /* PageSwiperIndicator */,
+				92D9E53A15CAFC64007280A9 /* Frameworks */,
+				92D9E53815CAFC64007280A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92D9E53815CAFC64007280A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92D9E53715CAFC64007280A9 /* PageSwiperIndicator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92D9E53A15CAFC64007280A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92D9E53B15CAFC64007280A9 /* UIKit.framework */,
+				92D9E53D15CAFC64007280A9 /* Foundation.framework */,
+				92D9E53F15CAFC64007280A9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92D9E54115CAFC64007280A9 /* PageSwiperIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				92D9E54A15CAFC64007280A9 /* WAAppDelegate.h */,
+				92D9E54B15CAFC64007280A9 /* WAAppDelegate.m */,
+				92D9E54215CAFC64007280A9 /* Supporting Files */,
+				92D9E55215CB0085007280A9 /* UIViewPager.h */,
+				92D9E55315CB0085007280A9 /* UIViewPager.m */,
+				92DEBAC815CDABDE007C6E5A /* WAScrollViewController.h */,
+				92DEBAC915CDABDE007C6E5A /* WAScrollViewController.m */,
+			);
+			path = PageSwiperIndicator;
+			sourceTree = "<group>";
+		};
+		92D9E54215CAFC64007280A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92D9E54315CAFC64007280A9 /* PageSwiperIndicator-Info.plist */,
+				92D9E54415CAFC64007280A9 /* InfoPlist.strings */,
+				92D9E54715CAFC64007280A9 /* main.m */,
+				92D9E54915CAFC64007280A9 /* PageSwiperIndicator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92D9E53615CAFC64007280A9 /* PageSwiperIndicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92D9E54F15CAFC64007280A9 /* Build configuration list for PBXNativeTarget "PageSwiperIndicator" */;
+			buildPhases = (
+				92D9E53315CAFC64007280A9 /* Sources */,
+				92D9E53415CAFC64007280A9 /* Frameworks */,
+				92D9E53515CAFC64007280A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PageSwiperIndicator;
+			productName = PageSwiperIndicator;
+			productReference = 92D9E53715CAFC64007280A9 /* PageSwiperIndicator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92D9E52E15CAFC64007280A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 92D9E53115CAFC64007280A9 /* Build configuration list for PBXProject "PageSwiperIndicator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92D9E52C15CAFC64007280A9;
+			productRefGroup = 92D9E53815CAFC64007280A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92D9E53615CAFC64007280A9 /* PageSwiperIndicator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92D9E53515CAFC64007280A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D9E54615CAFC64007280A9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92D9E53315CAFC64007280A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D9E54815CAFC64007280A9 /* main.m in Sources */,
+				92D9E54C15CAFC64007280A9 /* WAAppDelegate.m in Sources */,
+				92D9E55415CB0085007280A9 /* UIViewPager.m in Sources */,
+				92DEBACA15CDABDE007C6E5A /* WAScrollViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92D9E54415CAFC64007280A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92D9E54515CAFC64007280A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92D9E54D15CAFC64007280A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92D9E54E15CAFC64007280A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92D9E55015CAFC64007280A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PageSwiperIndicator/PageSwiperIndicator-Prefix.pch";
+				INFOPLIST_FILE = "PageSwiperIndicator/PageSwiperIndicator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		92D9E55115CAFC64007280A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PageSwiperIndicator/PageSwiperIndicator-Prefix.pch";
+				INFOPLIST_FILE = "PageSwiperIndicator/PageSwiperIndicator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92D9E53115CAFC64007280A9 /* Build configuration list for PBXProject "PageSwiperIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D9E54D15CAFC64007280A9 /* Debug */,
+				92D9E54E15CAFC64007280A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92D9E54F15CAFC64007280A9 /* Build configuration list for PBXNativeTarget "PageSwiperIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D9E55015CAFC64007280A9 /* Debug */,
+				92D9E55115CAFC64007280A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92D9E52E15CAFC64007280A9 /* Project object */;
+}
