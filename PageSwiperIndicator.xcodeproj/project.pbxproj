@@ -15,6 +15,7 @@
 		92D9E54C15CAFC64007280A9 /* WAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D9E54B15CAFC64007280A9 /* WAAppDelegate.m */; };
 		92D9E55415CB0085007280A9 /* UIViewPager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D9E55315CB0085007280A9 /* UIViewPager.m */; };
 		92DEBACA15CDABDE007C6E5A /* WAScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DEBAC915CDABDE007C6E5A /* WAScrollViewController.m */; };
+		92DEBACD15CDC474007C6E5A /* README in Resources */ = {isa = PBXBuildFile; fileRef = 92DEBACC15CDC474007C6E5A /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		92D9E55315CB0085007280A9 /* UIViewPager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewPager.m; sourceTree = "<group>"; };
 		92DEBAC815CDABDE007C6E5A /* WAScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAScrollViewController.h; sourceTree = "<group>"; };
 		92DEBAC915CDABDE007C6E5A /* WAScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAScrollViewController.m; sourceTree = "<group>"; };
+		92DEBACC15CDC474007C6E5A /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		92D9E52C15CAFC64007280A9 = {
 			isa = PBXGroup;
 			children = (
+				92DEBACC15CDC474007C6E5A /* README */,
 				92D9E54115CAFC64007280A9 /* PageSwiperIndicator */,
 				92D9E53A15CAFC64007280A9 /* Frameworks */,
 				92D9E53815CAFC64007280A9 /* Products */,
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92D9E54615CAFC64007280A9 /* InfoPlist.strings in Resources */,
+				92DEBACD15CDC474007C6E5A /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

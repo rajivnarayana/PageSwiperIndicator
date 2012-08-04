@@ -1,0 +1,29 @@
+Usage:
+
+1. Drag and drop UIViewPager.h and UIViewPager.m files into your project.
+
+2. Following modifications to your UIViewController. Look at WAScrollViewController for example usage. 
+
+    //Add view pager.
+    UIViewPager *viewPager = [[UIViewPager alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 50)];
+    [self.view addSubview:viewPager];
+    viewPager.delegate = self;
+    scrollView.delegate = viewPager;
+
+3. Implement the delegate methods to provide titles and to handle taps on the titles.
+
+#pragma mark UIViewPagerDelegate protocol implementation.
+
+- (NSString *) titleForLabelForPage:(int)page {
+    if (page == 0) {
+        return @"All";
+    }
+    if (page == 1) {
+        return @"Tips";
+    }
+    return nil;
+}
+
+- (void) switchToPageIndex:(int)page {
+    [scrollView setContentOffset:CGPointMake(page * scrollView.bounds.size.width,0) animated:YES];
+}

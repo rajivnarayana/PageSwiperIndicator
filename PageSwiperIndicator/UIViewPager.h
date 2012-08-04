@@ -26,10 +26,10 @@
     UILabel *secondLabel;
     CGFloat secondLabelWidth;
     UILabel *thirdLabel;
-    __weak id<UIViewPagerDelegate> delegate;
+    __unsafe_unretained id<UIViewPagerDelegate> delegate;
     CGFloat horizontalOffset;
 }
 
-@property(nonatomic, weak) id<UIViewPagerDelegate> delegate;
+@property(nonatomic, unsafe_unretained) id<UIViewPagerDelegate> delegate;
 
 @end
